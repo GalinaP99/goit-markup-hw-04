@@ -13,7 +13,7 @@
 
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container flexbox">
         <nav class="nav flexbox">
           <a class="logo" href="index.html" lang="en"
             >Web<span class="logo-title">Studio</span></a
@@ -132,7 +132,42 @@
               />
               <h3 class="our-team-title">Игорь Демьяненко</h3>
               <p class="position" lang="en">Product Designer</p>
+              <ul class="flexbox icon-container">
+                <li class="icon">
+                  <a class="social-link" href="https://www.instagram.com/" target="_blank" 
+                  rel="noopener noreferrer" aria-label="ссылка Инстаграм">
+                    <svg class="social-icon">
+                      <use href="./svg/incomoon/symbol-defs.svg#instagram2"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="icon">
+                  <a class="social-link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="ссылка Твиттер">
+                    <svg class="social-icon">
+                      <use href="./svg/incomoon/symbol-defs.svg#twitter1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="icon">
+                  <a class="social-link" href="https://facebook.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="ссылка Фейсбук">
+                    <svg class="social-icon">
+                      <use href="./svg/incomoon/symbol-defs.svg#facebook1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="icon">
+                  <a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="ссылка Линкедин">
+                    <svg class="social-icon">
+                      <use href="./svg/incomoon/symbol-defs.svg#linkedin1"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
+
             <li class="item foto-team">
               <img
                 src="./img/foto2.jpg"
@@ -142,7 +177,9 @@
               />
               <h3 class="our-team-title">Ольга Репина</h3>
               <p class="position" lang="en">Frontend Developer</p>
+              
             </li>
+            
             <li class="item foto-team">
               <img
                 src="./img/foto3.jpg"
@@ -166,10 +203,17 @@
           </ul>
         </div>
       </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="flexbox">
+            <li></li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer class="footer-section dark-bg">
+    <footer class="footer-section">
       <div class="container">
-        
         <a class="logo" href="index.html" lang="en"
           >Web<span class="logo-title-2">Studio</span></a
         >
@@ -196,17 +240,29 @@
                 >+38 099 111 11 11</a
               >
               </address>
-              <div class="social-contain">
+              <div>
                 <b class="join">присоединяйтесь</b>
                 <ul class="flexbox">
-                  <li>
+                  <li class="icon">
                     <a
-                      class="link icon"
+                      class="link-icon insta"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="ссылка на Инстаграм"
                     ></a>
+                  </li>
+                  <li class="icon">
+                    <a class="link-icon twt" href="#" target="_blank"
+                     rel="noopener noreferrer" aria-label="ссылка на Твиттер"></a>
+                  </li>
+                  <li class="icon">
+                    <a class="link-icon fe" href="#" target="_blank"
+                     rel="noopener noreferrer" aria-label="ссылка на Фейсбук"></a>
+                  </li>
+                  <li class="icon">
+                    <a class="link-icon lin" href="#" target="_blank" 
+                    rel="noopener noreferrer" aria-label="ссылка на Линкедин"></a>
                   </li>
                 </ul>
               </div>
