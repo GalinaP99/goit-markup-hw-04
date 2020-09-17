@@ -27,6 +27,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 
 ul {
@@ -77,8 +78,8 @@ ul {
   fill: var(--main-color);
 }
 
-.logo-info:hover,
-.logo-info:focus {
+.link.contacts:hover svg,
+.link.contacts:focus svg {
   fill: var(--active);
 }
 
@@ -294,8 +295,8 @@ img {
   background-color: var(--active);
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.link-icon:hover svg,
+.link-icon:focus svg {
   fill: var(--white);
 }
 
@@ -313,8 +314,8 @@ img {
   fill: #afb1b8;
 }
 
-.logo-icon:hover,
-.logo-icon:focus {
+.link-logo:hover svg,
+.link-logo:focus svg {
   fill: var(--active);
 }
 
